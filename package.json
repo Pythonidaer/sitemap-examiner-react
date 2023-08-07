@@ -1,5 +1,6 @@
 {
   "name": "sitemap-examiner-react",
+  "proxy": "http://127.0.0.1:3000/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +12,16 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-typeahead": "^6.2.3",
+    "react-dom": "^18.2.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

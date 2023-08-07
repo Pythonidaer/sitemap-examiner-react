@@ -14,6 +14,9 @@ const xmlFetcher = async () => {
     // above is too long to loop over (50,000)
     // Uncaught RangeError: Maximum call stack size exceeded
 
+    // Need to consider while looping
+    // Because the original batchsize is too large
+
     const startIndex = 0
     const endIndex = 50
 
