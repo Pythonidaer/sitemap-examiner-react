@@ -13,8 +13,13 @@ Currently, two official plugins are available:
 (My Old App)[https://github.com/Pythonidaer/reddie/blob/main/frontend/src/components/Header.js]
 (Axios Docs)[https://axios-http.com/docs/instance]
 (MDN CORS)[https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS]
+
+## Day 5 References
+
 (SearchBox)[https://github.com/Pythonidaer/reddie/blob/main/frontend/src/components/SearchBox.js]
 (Typeahead)[http://ericgio.github.io/react-bootstrap-typeahead/]
+(Ania Kubow)[https://www.youtube.com/watch?v=1wXYg8Eslnc]
+(ChatGPT)[https://chat.openai.com/share/3b86bac6-b615-4bf5-8ac9-6c361028683f]
 
 ## Day 5 Challenges
 

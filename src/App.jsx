@@ -71,7 +71,12 @@ function App() {
   }
 
   const handleSearch = () => {
+    // console.log(bookUrls)
     console.log(singleSelection)
+    const filteredSku = bookUrls.filter((urls) =>
+      singleSelection.some((sku) => urls.includes(sku))
+    )
+    console.log(filteredSku)
   }
 
   /*
@@ -103,8 +108,7 @@ equals URL to be used for cheerio
           Search
         </Button>
       </Form.Group>
-      <h1>XML Sitemap Examiner</h1>
-      <ul>
+      {/* <ul>
         {bookUrls &&
           bookUrls.map((bookUrl) => (
             <li key={bookUrl}>
@@ -115,9 +119,9 @@ equals URL to be used for cheerio
               >
                 {bookUrl}
               </a>
-            </li>
+          </li> 
           ))}
-      </ul>
+      </ul> */}
     </div>
   )
 }
@@ -137,4 +141,7 @@ export default App
         // CBD-ProductDetailActionPrice
 
         // Access the text content of the elements and log them
+
+        
+  "proxy": "http://127.0.0.1:3000/",
   */
